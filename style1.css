@@ -239,7 +239,6 @@ nav{
     display: flex;
     width: 50%;
     margin-left: 45px;
-    
     justify-content: center;
     
 }
@@ -1262,3 +1261,18 @@ footer {
     background: linear-gradient(#642bff, #ff22e6);
     border-radius: 20px;
   }
+
+
+@media screen and (max-width:480px){
+    .lower .logo{
+       
+        
+        justify-content: flex-start;
+        padding-left: 8%;
+    }
+
+    .nav-items{
+       
+        width: 50%;
+    }
+}
